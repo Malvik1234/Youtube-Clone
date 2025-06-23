@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+}
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: black;
+}
+
+.categories {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.catcard {
+    background-color: rgb(135, 134, 134);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.catcard a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.vidcard {
+    background-color: royalblue;
+    width: 25%;
+
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.vid-info {
+    padding: 0 10px;
+}
+
+.vidcard #thumbnail {
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.vid-logo-txt {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.vid-logo-txt #video-title {
+    padding: 0 10px;
+}
+
+.channel-info-txt {
+    padding-left: 46px;
+    color: grey;
+}
